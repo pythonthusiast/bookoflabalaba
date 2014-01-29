@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10df5852-ce56-4958-bd02-6db472651d15}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments />
+    <InterpreterPath>c:\kivy\kivy.bat</InterpreterPath>
+    <InterpreterArguments />
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Content Include="pages\20140128_103432.jpg" />
+    <Content Include="pages\20140128_103503.jpg" />
+    <Content Include="pages\20140128_103515.jpg" />
+    <Content Include="pages\20140128_103525.jpg" />
+    <Content Include="pages\20140128_103530.jpg" />
+    <Content Include="pages\20140128_103540.jpg" />
+    <Content Include="pages\20140128_103546.jpg" />
+    <Content Include="pages\20140128_103557.jpg" />
+    <Content Include="pages\20140128_103604.jpg" />
+    <Content Include="pages\20140128_103612.jpg" />
+    <Content Include="pages\20140128_103619.jpg" />
+    <Content Include="pages\20140128_103631.jpg" />
+    <Content Include="pages\20140128_103636.jpg" />
+    <Content Include="pages\20140128_103643.jpg" />
+    <Content Include="pages\20140128_103649.jpg" />
+    <Content Include="pages\20140128_103659.jpg" />
+    <Content Include="pages\20140128_103702.jpg" />
+    <Content Include="pages\20140128_103712.jpg" />
+    <Content Include="pages\20140128_103718.jpg" />
+    <Content Include="pages\20140128_103727.jpg" />
+    <Content Include="pages\20140128_103734.jpg" />
+    <Content Include="pages\20140128_103743.jpg" />
+    <Content Include="pages\20140128_103751.jpg" />
+    <Content Include="pages\20140128_103804.jpg" />
+    <Content Include="pages\20140128_103809.jpg" />
+    <Content Include="pages\20140128_103821.jpg" />
+    <Content Include="pages\20140128_103826.jpg" />
+    <Content Include="pages\20140128_103832.jpg" />
+    <Content Include="pages\20140128_103840.jpg" />
+    <Content Include="pages\20140128_103845.jpg" />
+    <Content Include="pages\20140128_103854.jpg" />
+    <Content Include="pages\20140128_103857.jpg" />
+    <Content Include="pages\cover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pages" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
